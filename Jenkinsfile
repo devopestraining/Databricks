@@ -14,7 +14,7 @@ node{
   stage('Deploy'){
      
        bat 'echo Hello deploy stage'
-       bat 'C:\\Users\\m.eemjurumedu\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\databricks.exe workspace import_dir C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\Databricks\\jenkinstest /Shared/meenakshifolder'
+       bat 'C:\\Users\\m.eemjurumedu\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\databricks.exe workspace import_dir C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\jenkins-demo\\jenkinstest /Shared/meenakshifolder'
         
   }
 }
